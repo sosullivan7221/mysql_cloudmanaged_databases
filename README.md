@@ -1,7 +1,7 @@
 # mysql_cloudmanaged_databases
 MySQL instances for Azure and GCP
 
-Note: I did not take a screenshot showing the tables being successfully created
+Note: I did not take a screenshot showing the tables being successfully created, however, the screenshot shows that I was unable to create the same table in the database since the table already exists.
 
 ## Azure Config Setup
 
