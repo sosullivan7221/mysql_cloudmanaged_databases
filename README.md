@@ -23,3 +23,15 @@ Resource Type: MySQL
 ## Using MySQL Workbench
 
 The interface for MySQL is familiar since it's structured similar to other IDEs. However, going in to use it for the first time can be intimidating because there are a lot of settings and tabs to use potentially. Going through it in class helped me feel more comfortable using it.
+
+## Connecting to Python
+
+-Attempted to connect to Python using both the GCP and Azure instances. Encountered two exceptions when running the .py file in this repository:
+
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'None' ([Errno -2] Name or service not known)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+-It seems there might be some issue with the credentials but I checked both my instances and didn't see any issues, so I am currently unsure how to approach this issue. I will continue to look into it.
